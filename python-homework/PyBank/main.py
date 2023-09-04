@@ -1,6 +1,8 @@
+#import csv file
 import csv
 from pathlib import Path
 
+# Set file paths
 budget_filepath = Path('budget_data.csv')
 output_file = Path('analysis/budget_analysis.txt')
 
