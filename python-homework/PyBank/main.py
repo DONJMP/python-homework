@@ -44,7 +44,7 @@ with open(budget_filepath) as budget:
 net_monthly_avg = round(sum(net_change_list) / len(net_change_list),2)
 
 # Export the results to text file
-with open(output_file, "w") as txt_file:
+with open(output_file) as txt_file:
     txt_file.write(f"Financial Analysis\n")
     txt_file.write(f"----------------------------\n")
     txt_file.write(f"Total Months: {total_months}\n")
